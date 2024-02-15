@@ -1,5 +1,6 @@
 # Yahtzee Calculator - PowerShell
 # Made by Collin Laney
+# Licensed under the GNU General Public License v3.0
 
 Add-Type -AssemblyName System.Windows.Forms
 
