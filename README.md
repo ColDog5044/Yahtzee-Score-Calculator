@@ -5,6 +5,7 @@
 [![Downloads][downloads-shield]][downloads-url]
 [![Issues][issues-shield]][issues-url]
 [![Stargazers][stars-shield]][stars-url]
+[![GPL-3.0][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-coldog-url]
 
 
@@ -16,22 +17,14 @@
     </a>
    <!-- 
   <p align="center">
-    <br>
-    <em>Copyright © ColDog Studios. All rights reserved.</em>
-    <br>
-    <br>
-    <a href="https://github.com/ColDog5044/ColDog-Locker/tree/CDS/docs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ColDog5044/Yahtzee-Score-Calculator/tree/CDS/docs"><strong>Explore the docs »</strong></a>
     <br>
     <br>
-    <a href="https://github.com/ColDog5044/ColDog-Locker/issues/new?assignees=&labels=type%3A+question&template=ask_a_question.yml&title=%5BQuestion%5D%3A+">Ask a Question</a>
+    <a href="https://github.com/ColDog5044/Yahtzee-Score-Calculator/issues/new?assignees=&labels=type%3A+question&template=ask_a_question.yml&title=%5BQuestion%5D%3A+">Ask a Question</a>
     ·
-    <a href="https://github.com/ColDog5044/ColDog-Locker/issues/new?assignees=&labels=type%3A+bug&template=bug_report.yml&title=%5BBug%5D%3A+">Report Bug</a>
+    <a href="https://github.com/ColDog5044/Yahtzee-Score-Calculator/issues/new?assignees=&labels=type%3A+bug&template=bug_report.yml&title=%5BBug%5D%3A+">Report Bug</a>
     ·
-    <a href="https://github.com/ColDog5044/ColDog-Locker/issues/new?assignees=&labels=type%3A+feature&template=feature_request.yml&title=%5BFeature+Request%5D%3A+">Request Feature</a>
-    ·
-    <a href="https://github.com/ColDog5044/ColDog-Locker/issues/new?assignees=&labels=type%3A+security&template=security.yml&title=%5BSecurity%5D%3A+">Security Issue</a>
-    ·
-    <a href="https://github.com/ColDog5044/ColDog-Locker/security/advisories/new">Report a Vulnerability</a>
+    <a href="https://github.com/ColDog5044/Yahtzee-Score-Calculator/issues/new?assignees=&labels=type%3A+feature&template=feature_request.yml&title=%5BFeature+Request%5D%3A+">Request Feature</a>
   </p>-->
 </div>
 
@@ -49,7 +42,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#important-notice-and-disclaimer">Important Notice and Disclaimer</a></li>
         <li><a href="#compatability">Compatability</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -57,17 +49,24 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#features">Features</a></li>
+    <li><a href="#license">Licese</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+A straightforward Yahtzee score calculator to remove the unnecessary math required when attempting to compute a score.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ### Built With
 
-* [![.Net][.Net-shield]][.Net-url]
 * [![PowerShell][PowerShell-shield]][PowerShell-url]
-* [![Windows][Windows-shield]][Windows-url]
-* [![C#][C#-shield]][C#-url]
+* [![.Net][.Net-shield]][.Net-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +112,14 @@ Use this space to show useful examples of how a project can be used. Additional 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- LICENSE -->
+## License
+
+Distributed under the GPU-3.0 license. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTACT -->
 ## Contact
 
@@ -136,14 +143,16 @@ Collin Laney (ColDog5044) - [@ColDog5044](https://twitter.com/ColDog5044) - coll
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[release-shield]: https://img.shields.io/github/v/release/ColDog5044/ColDog-Locker?style=for-the-badge
-[release-url]: https://github.com/ColDog5044/ColDog-Locker
-[downloads-shield]: https://img.shields.io/github/downloads/ColDog5044/ColDog-Locker/total.svg?style=for-the-badge
-[downloads-url]: https://github.com/ColDog5044/ColDog-Locker
-[issues-shield]: https://img.shields.io/github/issues/ColDog5044/ColDog-Locker.svg?style=for-the-badge
-[issues-url]: https://github.com/ColDog5044/ColDog-Locker/issues
-[stars-shield]: https://img.shields.io/github/stars/ColDog5044/ColDog-Locker.svg?style=for-the-badge
-[stars-url]: https://github.com/ColDog5044/ColDog-Locker/stargazers
+[release-shield]: https://img.shields.io/github/v/release/ColDog5044/Yahtzee-Score-Calculator?style=for-the-badge
+[release-url]: https://github.com/ColDog5044/Yahtzee-Score-Calculator
+[downloads-shield]: https://img.shields.io/github/downloads/ColDog5044/Yahtzee-Score-Calculator/total.svg?style=for-the-badge
+[downloads-url]: https://github.com/ColDog5044/Yahtzee-Score-Calculator
+[issues-shield]: https://img.shields.io/github/issues/ColDog5044/Yahtzee-Score-Calculator.svg?style=for-the-badge
+[issues-url]: https://github.com/ColDog5044/Yahtzee-Score-Calculator/issues
+[stars-shield]: https://img.shields.io/github/stars/ColDog5044/Yahtzee-Score-Calculator.svg?style=for-the-badge
+[stars-url]: https://github.com/ColDog5044/Yahtzee-Score-Calculator/stargazers
+[license-shield]: https://img.shields.io/github/license/ColDog5044/Yahtzee-Score-Calculator.svg?style=for-the-badge
+[license-url]: https://github.com/ColDog5044/Yahtzee-Score-Calculator/blob/main/LICENSE
 
 [github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ColDog5044
@@ -160,7 +169,3 @@ Collin Laney (ColDog5044) - [@ColDog5044](https://twitter.com/ColDog5044) - coll
 [.Net-url]: https://dotnet.microsoft.com/
 [PowerShell-shield]:https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white
 [PowerShell-url]: https://docs.microsoft.com/en-us/powershell/
-[Windows-shield]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
-[Windows-url]: https://www.microsoft.com/en-us/windows
-[C#-shield]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
-[C#-url]: https://docs.microsoft.com/en-us/dotnet/csharp/
