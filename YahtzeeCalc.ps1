@@ -1,4 +1,4 @@
-# Yahtzee Calculator - PowerShell
+# Yahtzee SCalculator - PowerShell
 # Made by Collin Laney
 # Licensed under the GNU General Public License v3.0
 
@@ -6,13 +6,13 @@ Add-Type -AssemblyName System.Windows.Forms
 
 # Create the form
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Yahtzee Calculator"
+$form.Text = "Yahtzee Score Calc"
 $form.Size = New-Object System.Drawing.Size(300, 700)
 $form.StartPosition = "CenterScreen"
 $form.FormBorderStyle = 'FixedSingle'
 $form.MaximizeBox = $false
 
-# Create labels and dropdowns for upper section
+# Create labels and dropdowns for the upper section
 $upperSectionLabels = @("Ones", "Twos", "Threes", "Fours", "Fives", "Sixes")
 $upperSectionDropdowns = @()
 $y = 20
@@ -109,13 +109,13 @@ $lblLowerTotal.Location = New-Object System.Drawing.Point(20, 480)
 $lblLowerTotal.Size = New-Object System.Drawing.Size(200, 23)
 $form.Controls.Add($lblLowerTotal)
 
-# Create label for upper section bonus
+# Create label for the upper section bonus
 $lblUpperBonus = New-Object System.Windows.Forms.Label
 $lblUpperBonus.Location = New-Object System.Drawing.Point(20, 510)
 $lblUpperBonus.Size = New-Object System.Drawing.Size(250, 23)
 $form.Controls.Add($lblUpperBonus)
 
-# Create label for grand total
+# Create label for the grand total
 $lblGrandTotal = New-Object System.Windows.Forms.Label
 $lblGrandTotal.Location = New-Object System.Drawing.Point(20, 540)
 $lblGrandTotal.Size = New-Object System.Drawing.Size(200, 23)
@@ -130,7 +130,7 @@ $form.Controls.Add($btnCalculate)
 
 # Event handler for the Calculate button
 $btnCalculate.Add_Click({
-    # Calculate upper section total
+    # Calculate the upper section total
     $upperTotal = 0
     foreach ($dropdown in $upperSectionDropdowns) {
         $upperTotal += [int]$dropdown.SelectedItem * ++$i
@@ -143,7 +143,7 @@ $btnCalculate.Add_Click({
     }
     $lblUpperTotal.Text = "Upper Section Total: $upperTotal"
 
-    # Calculate lower section total
+    # Calculate the lower section total
     $lowerTotal = 0
     foreach ($txt in $lowerSectionTextboxes) {
         $lowerTotal += [int]$txt.Text
@@ -156,7 +156,7 @@ $btnCalculate.Add_Click({
     $lowerTotal += [int]$txtChance.Text
     $lblLowerTotal.Text = "Lower Section Total: $lowerTotal"
 
-    # Calculate grand total
+    # Calculate the grand total
     $grandTotal = $upperTotal + $lowerTotal
 
     # Display the grand total
